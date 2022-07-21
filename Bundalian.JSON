@@ -1,0 +1,23 @@
+{
+  "Fullname": "Rustom D. Bundalian", //with photo
+
+  //My Profile
+  "Profile": "Profile", //bold, font size 24
+  "Profiles": "I'm still a student and currently studying nearby my home but I'm looking forward to work. I wanted to share my knowledge I learned from school and also my skills to help grow the future company I will work with.", 
+
+  //Employment History
+  "Employment": "Employment History", //bold, font size 24
+  "Student": "Student, Paranaque", //bold, font size 20
+  "StdFrom": "June 2008 - April 2021", //font size 18
+  "Employments": "Have no experience of working but looking forward to a company where I can share my skills with.",
+
+  //Education
+  "Education": "Education", //bold, font size 24
+  "Hs": "Highschool, Paranaque", //bold, font size 20
+  "HsFrom": "June 2015 - April 2021", //font size 18
+  "Educations": "I'm a consistent honor student from grade 7 until grade 12. Have participated MTAP when I was in grade 7 and 8, won 3rd place on grade 7. Have participated school activities life quiz bee and became champion. Also joined sports fest chess and damath and also became champion.",
+
+  "Elem": "Elementary, Paranaque", //bold, font size 20
+  "ElemFrom": "June 2009 - June 2015", //font size 18
+  "Elems": "Start to get honors from grade 5 to 6, earned best in math and science title"
+}
