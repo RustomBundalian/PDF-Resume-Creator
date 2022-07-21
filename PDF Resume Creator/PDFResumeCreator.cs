@@ -109,7 +109,7 @@ namespace PDF_Resume_Creator
             Resume.Add(elem);
             Resume.Add(elemfrom);
             Resume.Add(elems);
-
+            MessageBox.Show("You successfully generated your own Resume!");
             Resume.Close();
         }
     }
