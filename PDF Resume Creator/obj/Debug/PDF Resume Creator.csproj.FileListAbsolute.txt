@@ -8,10 +8,10 @@ C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\itexts
 C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.AssemblyReference.cache
 C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.SuggestedBindingRedirects.cache
-C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.Form1.resources
 C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.Properties.Resources.resources
 C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.GenerateResource.cache
 C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.CoreCompileInputs.cache
 C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.CopyComplete
 C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.exe
 C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF Resume Creator.pdb
+C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.PDFResumeCreator.resources

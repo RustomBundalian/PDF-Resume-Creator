@@ -1,6 +1,6 @@
 ﻿namespace PDF_Resume_Creator
 {
-    partial class Form1
+    partial class PDFResumeCreator
     {
         /// <summary>
         /// Required designer variable.

@@ -18,9 +18,9 @@ using iTextSharp.text.pdf.draw;
 
 namespace PDF_Resume_Creator
 {
-    public partial class Form1 : Form
+    public partial class PDFResumeCreator : Form
     {
-        public Form1()
+        public PDFResumeCreator()
         {
             InitializeComponent();
         }
@@ -29,8 +29,6 @@ namespace PDF_Resume_Creator
         {
 
         }
-
-
 
         public class MyResume
         {
@@ -65,9 +63,13 @@ namespace PDF_Resume_Creator
         }
             private void btnGenerate_Click(object sender, EventArgs e)
         {
-            string myJson = File.ReadAllText(@"C:\Users\Tom\source\repos\PDF Resume Creator\PDF Resume Creator\Bundalian.JSON");
+            string myJson = File.ReadAllText(@"C:\Users\Tom\source\repos\PDF Resume Creator\Bundalian.JSON");
 
             MyResume JsonInfo = JsonConvert.DeserializeObject<MyResume>(myJson);
+
+            Document Resume = new Document();
+            PdfWriter.GetInstance(Resume, new FileStream(@"C:\Users\Tom\source\repos\PDF Resume Creator\BUNDALIAN_RUSTOM.pdf", FileMode.Create));
+            Resume.Open();
         }
     }
 }
