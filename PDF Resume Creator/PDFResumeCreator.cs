@@ -70,6 +70,18 @@ namespace PDF_Resume_Creator
             Document Resume = new Document();
             PdfWriter.GetInstance(Resume, new FileStream(@"C:\Users\Tom\source\repos\PDF Resume Creator\BUNDALIAN_RUSTOM.pdf", FileMode.Create));
             Resume.Open();
+
+            Paragraph pic = new Paragraph(@"C:\Users\Tom\Downloads\2by2.jpg" + "  ");
+            Paragraph myName = new Paragraph(JsonInfo.Fullname + "\n\n");
+            myName.Font.Size = 30;
+            Paragraph myProfile = new Paragraph(JsonInfo.Profile + "\n");
+            myProfile.Font.Size = 20;
+            Paragraph myProfiles = new Paragraph(JsonInfo.Profiles + "\n\n");
+            Resume.Add(pic);
+            Resume.Add(myName);
+            Resume.Add(myProfile);
+            Resume.Add(myProfiles);
+            Resume.Close();
         }
     }
 }
