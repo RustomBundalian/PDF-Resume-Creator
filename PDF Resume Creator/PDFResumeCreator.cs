@@ -71,16 +71,45 @@ namespace PDF_Resume_Creator
             PdfWriter.GetInstance(Resume, new FileStream(@"C:\Users\Tom\source\repos\PDF Resume Creator\BUNDALIAN_RUSTOM.pdf", FileMode.Create));
             Resume.Open();
 
-            Paragraph pic = new Paragraph(@"C:\Users\Tom\Downloads\2by2.jpg" + "  ");
             Paragraph myName = new Paragraph(JsonInfo.Fullname + "\n\n");
             myName.Font.Size = 30;
             Paragraph myProfile = new Paragraph(JsonInfo.Profile + "\n");
-            myProfile.Font.Size = 20;
+            myProfile.Font.Size = 18;
             Paragraph myProfiles = new Paragraph(JsonInfo.Profiles + "\n\n");
-            Resume.Add(pic);
             Resume.Add(myName);
             Resume.Add(myProfile);
             Resume.Add(myProfiles);
+            Paragraph employment = new Paragraph(JsonInfo.Employment + "\n");
+            employment.Font.Size = 18;
+            Paragraph student = new Paragraph(JsonInfo.Student + "\n");
+            student.Font.Size = 12;
+            Paragraph stdfrom = new Paragraph(JsonInfo.StdFrom + "\n");
+            stdfrom.Font.Size = 9;
+            Paragraph employments = new Paragraph(JsonInfo.Employments + "\n\n");
+            Resume.Add(employment);
+            Resume.Add(student);
+            Resume.Add(stdfrom);
+            Resume.Add(employments);
+            Paragraph education = new Paragraph(JsonInfo.Education + "\n");
+            education.Font.Size = 18;
+            Paragraph hs = new Paragraph(JsonInfo.Hs + "\n");
+            hs.Font.Size = 12;
+            Paragraph hsfrom = new Paragraph(JsonInfo.HsFrom + "\n");
+            hsfrom.Font.Size = 9;
+            Paragraph educations = new Paragraph(JsonInfo.Educations + "\n\n");
+            Resume.Add(education);
+            Resume.Add(student);
+            Resume.Add(stdfrom);
+            Resume.Add(employments);
+            Paragraph elem = new Paragraph(JsonInfo.Elem + "\n");
+            elem.Font.Size = 12;
+            Paragraph elemfrom = new Paragraph(JsonInfo.ElemFrom + "\n");
+            elemfrom.Font.Size = 9;
+            Paragraph elems = new Paragraph(JsonInfo.Elems);
+            Resume.Add(elem);
+            Resume.Add(elemfrom);
+            Resume.Add(elems);
+
             Resume.Close();
         }
     }
